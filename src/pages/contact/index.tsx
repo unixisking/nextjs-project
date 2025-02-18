@@ -78,20 +78,20 @@ au sujet de votre traitement d'épilation définitive."
           </p>
           <div className='space-y-2'>
             <h4 className='font-light'>Rendez-nous visite</h4>
-            <a href='#' className='underline'>
-              Rue du Lion d&apos;Or 4, 1003 Lausanne, Suisse
-            </a>
+            <a href='#' className='underline'></a>
           </div>
           <div className='space-y-2'>
             <h4 className='font-light'>Envoyez-nous un e-mail</h4>
             <p className='space-y-2 underline'>
-              <a href='mailto:info@cliniquemuller.ch'>info@cliniquemuller.ch</a>
+              <a href='mailto:hello@sidahmed.engineer'>
+                hello@sidahmed.engineer
+              </a>
             </p>
           </div>
           <div className='space-y-2'>
             <h4 className='font-light'>Appelez-nous</h4>
             <p className='space-y-2 underline'>
-              <a href='tel:+41213118495'>+41 21 311 84 95</a>
+              <a href='tel:+4111 11 111 11'>+41 11 111 11 11</a>
             </p>
           </div>
         </div>

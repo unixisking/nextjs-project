@@ -5,11 +5,11 @@ export const HOMEPAGE_MARKUP = {
   image: 'https://cliniquemuller.ch/images/homepage/hero.webp',
   '@id': 'https://cliniquemuller.ch/epilation-definitive',
   url: 'https://cliniquemuller.ch/epilation-definitive',
-  telephone: '+41213118495',
+  telephone: '+4111111111',
   priceRange: '$$',
   address: {
     '@type': 'PostalAddress',
-    streetAddress: "Rue du Lion d'Or 4",
+    streetAddress: '',
     addressLocality: 'Lausanne',
     postalCode: '1003',
     addressCountry: 'CH',

@@ -11,7 +11,7 @@ export default function ThankyouPage() {
       <Seo
         title='Merci de nous avoir contacté | Clinique Muller'
         description="Nous vous remercions de nous avoir contactés. Pour plus d'informations sur nos services d'épilation
-        définitive, contactez-nous à info@cliniquemuller.ch"
+        définitive, contactez-nous à hello@sidahmed.engineer"
       />
 
       <div className='mx-auto mt-48 mb-12 max-w-7xl space-y-6 text-center lg:mb-24'>

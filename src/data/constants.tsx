@@ -18,11 +18,14 @@ export const NAVIGATION = {
   ],
   contact: [
     {
-      name: 'Rue du Lion d’Or 4, 1003 Lausanne, Suisse,',
+      name: '',
       href: 'https://goo.gl/maps/9c9nzvpWMTgA8xoZ8',
     },
-    { name: 'info@cliniquemuller.ch', href: 'mailto: info@cliniquemuller.ch' },
-    { name: '+41 21 311 84 95', href: 'tel: +41 21 311 84 95' },
+    {
+      name: 'hello@sidahmed.engineer',
+      href: 'mailto: hello@sidahmed.engineer',
+    },
+    { name: '+41 11 11 11 11', href: '' },
   ],
   social: [
     {

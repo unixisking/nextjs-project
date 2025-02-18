@@ -120,21 +120,19 @@ export default function AboutPage() {
             <h3 className='font-normal uppercase text-darker'>
               Rendez-nous visite
             </h3>
-            <a href='#' className='text-lg underline'>
-              Rue du Lion d&apos;Or 4, 1003 Lausanne, Suisse
-            </a>
+            <a href='#' className='text-lg underline'></a>
           </div>
           <div>
             <h3 className='font-normal uppercase text-darker'>
               Envoyez-nous un e-mail
             </h3>
-            <a href='mailto:contact@cliniquemuller.ch' className='mt-2'>
-              info@cliniquemuller.ch
+            <a href='mailto:hello@sidahmed.engineer' className='mt-2'>
+              hello@sidahmed.engineer
             </a>
           </div>
           <div>
             <h3 className='font-normal uppercase text-darker'>Appelez-nous</h3>
-            <a href='tel:'>+41 21 311 84 95</a>
+            <a href='tel:'>+41 11 11 111 11</a>
           </div>
         </div>
         <img
