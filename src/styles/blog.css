@@ -1,0 +1,12 @@
+.blog-post a {
+  text-decoration: underline;
+  color: #ff1a75;
+}
+
+.blog-post img {
+  padding: 50px 0px;
+}
+.blog-post h2 {
+  padding: 20px 0px;
+  font-weight: bold;
+}

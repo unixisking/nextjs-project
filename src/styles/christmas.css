@@ -1,0 +1,57 @@
+.card {
+  overflow: hidden;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(94.41deg, #f74c46 0%, #a52f2f 100%);
+  opacity: 0.9;
+  transform: skew(40deg) translateX(165%) translateY(-10%);
+  transition: all 0.6s ease;
+  z-index: 30;
+}
+.card::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(94.41deg, #f74c46 0%, #a52f2f 100%);
+  opacity: 0.9;
+  transition: all 0.6s ease;
+  transform: skew(40deg) translateX(-165%) translateY(10%);
+  z-index: 30;
+}
+.card:hover::before {
+  transform: skew(40deg) translateX(-165%) translateY(10%);
+}
+.card:hover::after {
+  transform: skew(40deg) translateX(165%) translateY(-10%);
+}
+.red-shadow {
+  border: 1px solid #a52f2f;
+  box-shadow: 0px 6px 40px rgba(165, 47, 47, 0.4);
+}
+.faq-bg-sm {
+  background: linear-gradient(0deg, #f2eeee, #f2eeee),
+    linear-gradient(0deg, #f6f1e7, #f6f1e7), #ffffff;
+}
+
+#card:hover #carddesc {
+  visibility: hidden;
+}
+
+#card:hover #carddetails {
+  z-index: 30;
+}
+.carouselItem {
+  padding-right: 0px;
+  padding: 0px;
+  max-width: 215px;
+}
